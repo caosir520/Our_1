@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y40">
+
+    <ImageView
+        android:layout_width="@dimen/x30"
+        android:layout_height="@dimen/x30"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:elevation="@dimen/y11"
+        android:src="@drawable/biao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/im_myroad_time_ic"
+        android:layout_marginStart="32dp" />
+
+    <View
+        android:id="@+id/vieww"
+        android:layout_width="2dp"
+        android:layout_height="57dp"
+        android:background="@color/orang_400"
+        app:layout_constraintLeft_toLeftOf="@+id/im_myroad_time_ic"
+        app:layout_constraintRight_toRightOf="@+id/im_myroad_time_ic"
+        app:layout_constraintTop_toTopOf="@+id/im_myroad_time_ic"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/tv_item_myroad_tow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:text="2014年9月大一入学"
+        android:alpha="0.87"
+        android:textSize="@dimen/text_size_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintVertical_bias="0.666"
+        app:layout_constraintLeft_toRightOf="@+id/im_myroad_time_ic"
+        android:layout_marginLeft="8dp" />
+
+</android.support.constraint.ConstraintLayout>
